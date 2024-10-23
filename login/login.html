@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión de Mantenimiento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Sistema de Mantenimiento</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="carousel-container">
+                <div class="carousel">
+                    <img src="C:/xampp/htdocs/MPC - Pagina/imagenes-carrusel/Imagen 1.jpg" alt="Imagen 1">
+                    <img src="C:/xampp/htdocs/MPC - Pagina/imagenes-carrusel/Imagen 2.jpg" alt="Imagen 2">
+                    <img src="C:/xampp/htdocs/MPC - Pagina/imagenes-carrusel/Imagen 3.jpg" alt="Imagen 3">
+                </div>
+            </div>
+
+            <section class="login-form">
+                <div class="login-content">
+                    <h2>Bienvenidos a MPC INGENIEROS SAC</h2>
+                    <p>Somos especialistas en la gestión de mantenimiento predictivo y correctivo</p>
+                    <form method="POST" action="login.php">
+                        <div>
+                            <label for="username">Nombre de usuario:</label>
+                            <input type="text" id="username" name="username" required>
+                        </div>
+                        <div>
+                            <label for="password">Contraseña:</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                        <button type="submit">Iniciar sesión</button>
+                    </form>
+                    <p>¿No tienes cuenta? <a href="#">Regístrate</a></p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="footer-text">&copy; 2024 Sistema de Gestión de Mantenimiento</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

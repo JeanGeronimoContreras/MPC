@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión de Mantenimiento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Sistema de Mantenimiento</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Equipos</a></li>
+                    <li><a href="#">Sensores</a></li>
+                    <li><a href="#">Alertas</a></li>
+                    <li><a href="#">Reportes</a></li>
+                    <li><a href="#">Usuarios</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="info-general">
+            <h2>Información General</h2>
+            <div class="kpi">
+                <div>
+                    <h3>Equipos Monitoreados</h3>
+                    <p id="total-equipos">0</p>
+                </div>
+                <div>
+                    <h3>Alertas Activas</h3>
+                    <p id="total-alertas">0</p>
+                </div>
+                <div>
+                    <h3>Temperatura Promedio</h3>
+                    <p id="temp-promedio">0°C</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="equipos">
+            <h2>Equipos</h2>
+            <div class="equipo-list">
+                <!-- Aquí se cargarán los equipos dinámicamente -->
+            </div>
+        </section>
+
+        <section class="alertas">
+            <h2>Alertas</h2>
+            <div class="alerta-list">
+                <!-- Aquí se cargarán las alertas dinámicamente -->
+            </div>
+        </section>
+
+        <section class="reportes">
+            <h2>Reportes</h2>
+            <div class="reporte-list">
+                <!-- Aquí se cargarán las opciones de reportes -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sistema de Gestión de Mantenimiento</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
